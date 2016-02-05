@@ -1,0 +1,76 @@
+/****** High Level Styles ******/
+
+@font-face {
+    font-family: "Sketch 3D";
+    src: url("../fonts/sketch_3d.otf") format("opentype");
+    font-weight: 900;
+}
+
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tic-tac-toe {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-family: "Sketch 3D";
+    text-align: center;
+}
+
+/****** Header Style ******/
+
+.tic-tac-toe .header {
+    text-align: center;
+    font-size: 5em;
+}
+
+.tic-tac-toe .header:hover {
+    color: blue;
+}
+
+/****** Board Styles ******/
+
+.tic-tac-toe .board {}
+
+.tic-tac-toe table {
+    text-align: center;
+    font-size: 5em;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tic-tac-toe tr:first-child {
+    border-bottom: 15px solid #3F4040;
+
+}
+
+.tic-tac-toe tr:last-child {
+    border-top: 15px solid #3F4040;
+}
+
+.tic-tac-toe table tr td:first-child {
+    border-right: 15px solid #3F4040;
+}
+
+.tic-tac-toe table tr td:last-child {
+    border-left: 15px solid #3F4040;
+}
+
+.tic-tac-toe table td {
+    padding: 3rem;
+}
+
+/****** Message Style ******/
+
+.tic-tac-toe .message {
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+/****** Player Selector Style ******/
+
+.tic-tac-toe .player-selector {}
