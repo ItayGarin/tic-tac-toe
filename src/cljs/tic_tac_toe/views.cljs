@@ -45,7 +45,7 @@
    [replay-button]])
 
 (defn won [player]
-  [replay (str "It's " (player-letter player) "'s Turn")])
+  [replay (str "Player " (player-letter player) " Won!")])
 
 (defn stalemate [player]
   [replay "Stalemate"])
